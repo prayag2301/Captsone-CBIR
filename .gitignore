@@ -6,7 +6,7 @@
 .pnp.js
 /Dataset
 /__pycache__
-
+.api_key.json
 # testing
 /coverage
 

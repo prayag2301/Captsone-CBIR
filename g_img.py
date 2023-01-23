@@ -2,14 +2,14 @@ from serpapi import GoogleSearch
 import json
 f = open('text.json')
 data = json.load(f)
-text = data['Text']
-print(text)
+f2 = open('api_key.json')
+key = json.load(f2)
 
 params = {
-    "q": text,
+    "q": data['Text'],
     "tbm": "isch",
     "ijn": "0",
-    "api_key": "2e471876fab539e6a352a303cddc5e5a1224a9fc0a26ccb14bd35b2dcea70868"
+    "api_key": key['key'] 
 }
 
 search = GoogleSearch(params)
