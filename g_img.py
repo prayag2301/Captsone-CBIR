@@ -9,10 +9,12 @@ params = {
     "q": data['Text'],
     "tbm": "isch",
     "ijn": "0",
-    "api_key": key['key'] 
+    "api_key": key['key']
 }
 
 search = GoogleSearch(params)
 results = search.get_dict()
 images_results = results["images_results"]
 print(images_results)
+with open('image_results.json', 'w') as f:
+    json.dump(images_results, f)
