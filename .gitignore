@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /Dataset
+/chest_xray
 /__pycache__
 api_key.json
 # testing

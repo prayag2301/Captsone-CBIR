@@ -55,7 +55,7 @@ maxres = 6
 imlist = [imgNames[index] for i, index in enumerate(rank_ID[0:maxres])]
 imlist2 = [imgNames[index].decode('ASCII')
            for i, index in enumerate(rank_ID[0:maxres])]
-path = '/Users/aishaandatt/Downloads/CBIR/Dataset'
+path = '/Users/aishaandatt/Downloads/CBIR/chest_xray/train/'
 imlist3 = []
 for i in imlist2:
     # print('i is',type(i))
@@ -63,7 +63,7 @@ for i in imlist2:
     imlist3.append(path+i)
 print(imlist3)
 with open('data.json', 'w') as f:
-    json.dump({'imag': imlist3}, f)
+    json.dump({'query': args['query'], 'imag': imlist3}, f)
 # print('imgNames \n',imgNames[0][1])
 print("top %d images in order are: " % maxres, imlist2)
 

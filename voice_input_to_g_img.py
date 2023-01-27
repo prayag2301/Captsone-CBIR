@@ -56,7 +56,7 @@ rank_score = scores[rank_ID]
 
 ################## PART 4 - Results ##################
 # number of top retrieved images to show
-maxres = 6
+maxres = 5
 imlist = [imgNames[index] for i, index in enumerate(rank_ID[0:maxres])]
 imlist2 = [imgNames[index].decode('ASCII')
            for i, index in enumerate(rank_ID[0:maxres])]
