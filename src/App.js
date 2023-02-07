@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import  { MyDropzoneComponent } from './components/FileUpload'
 import './App.css';
+import ButtonAppBar from './components/ButtonAppBar';
+import { Typography } from '@mui/material';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ButtonAppBar />
+      <Typography align="center" variant="h2" color='primary' style={{
+        padding: '50px'
+      }}>
+        Content Based image retreival
+      </Typography>
+      <MyDropzoneComponent />
     </div>
   );
 }
