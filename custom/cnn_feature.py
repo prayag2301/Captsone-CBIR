@@ -18,8 +18,6 @@ x = MaxPooling2D((2, 2))(x)
 x = Flatten()(x)
 model = Model(inputs, x)
 
-# Extract features from an image
-
 
 def extract_features(img_path):
     img = load_img(img_path, target_size=(224, 224))
@@ -36,3 +34,4 @@ def extract_features(img_path):
 img_path = '/Users/aishaandatt/Downloads/CBIR/chest_xray/val/extra/NORMAL2-IM-1427-0001.jpeg'
 feature_vector = extract_features(img_path)
 print(feature_vector)
+print(len(feature_vector[0]))
