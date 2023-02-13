@@ -31,7 +31,7 @@ def extract_features(img_path):
 
 
 # Example usage
-img_path = '/Users/aishaandatt/Downloads/CBIR/chest_xray/val/extra/NORMAL2-IM-1427-0001.jpeg'
+img_path = '/Users/aishaandatt/Downloads/CBIR/Brain_DS/Mild_Demented/mild_645.jpg'
 feature_vector = extract_features(img_path)
 print(feature_vector)
 print(len(feature_vector[0]))

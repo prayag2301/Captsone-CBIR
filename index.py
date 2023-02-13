@@ -21,7 +21,7 @@ args = vars(ap.parse_args())
 
 
 def get_imlist(path):
-    return [os.path.join(path, f) for f in os.listdir(path) if f.endswith('.jpeg')]
+    return [os.path.join(path, f) for f in os.listdir(path) if f.endswith('.jpg')]
 
 
 '''

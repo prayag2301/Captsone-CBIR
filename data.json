@@ -1,11 +1,9 @@
 {
-  "query": "/Users/aishaandatt/Downloads/CBIR/chest_xray/train/person305_virus_627.jpeg",
   "imag": [
-    "/Users/aishaandatt/Downloads/CBIR/chest_xray/train/person1613_virus_2799.jpeg",
-    "/Users/aishaandatt/Downloads/CBIR/chest_xray/train/person51_virus_105.jpeg",
-    "/Users/aishaandatt/Downloads/CBIR/chest_xray/train/person1618_virus_2805.jpeg",
-    "/Users/aishaandatt/Downloads/CBIR/chest_xray/train/person52_virus_106.jpeg",
-    "/Users/aishaandatt/Downloads/CBIR/chest_xray/train/person42_virus_89.jpeg",
-    "/Users/aishaandatt/Downloads/CBIR/chest_xray/train/person76_virus_138.jpeg"
+    "/Users/aishaandatt/Downloads/CBIR/DatasetZebra_1.jpg",
+    "/Users/aishaandatt/Downloads/CBIR/DatasetMaggi_1.jpg",
+    "/Users/aishaandatt/Downloads/CBIR/DatasetTiger_17.jpg",
+    "/Users/aishaandatt/Downloads/CBIR/DatasetCat_1.jpg",
+    "/Users/aishaandatt/Downloads/CBIR/DatasetWatermelon_19.jpg"
   ]
 }
